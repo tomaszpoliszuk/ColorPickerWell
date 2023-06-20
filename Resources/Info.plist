@@ -1,0 +1,11 @@
+{
+	CFBundleDevelopmentRegion = "English";
+	CFBundleExecutable = "ColorPickerWell";
+	CFBundleIdentifier = "com.tomaszpoliszuk.colorpickerwell";
+	CFBundleInfoDictionaryVersion = "6.0";
+	CFBundlePackageType = "FMWK";
+	CFBundleShortVersionString = "1.0.0";
+	CFBundleSignature = "????";
+	CFBundleVersion = "1.0";
+	NSPrincipalClass = "CPColorPickerTableCell";
+}

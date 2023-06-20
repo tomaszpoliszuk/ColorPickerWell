@@ -1,0 +1,11 @@
+{
+	CFBundleDevelopmentRegion = "English";
+	CFBundleExecutable = "CPColorPickerTableCellExample";
+	CFBundleIdentifier = "com.tomaszpoliszuk.colorpickertablecellexample";
+	CFBundleInfoDictionaryVersion = "6.0";
+	CFBundlePackageType = "BNDL";
+	CFBundleShortVersionString = "1.0.0";
+	CFBundleSignature = "????";
+	CFBundleVersion = "1.0";
+	NSPrincipalClass = "CPColorPickerTableCellExample";
+}

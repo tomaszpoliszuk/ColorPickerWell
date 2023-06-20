@@ -1,0 +1,46 @@
+{
+	title = "CPColorPickerTableCell Static";
+	items = (
+		{
+			cell = PSStaticTextCell;
+			cellClass = CPColorPickerTableCell;
+			label = "no alpha, default";
+			key = noAlphaDefaultStatic;
+			default = "#339966";
+			allowMultilineTitleKey = 1;
+			defaults = com.tomaszpoliszuk.colorpickertablecellexample;
+			PostNotification = com.tomaszpoliszuk.colorpickertablecellexample.settingschanged;
+		},
+		{
+			cell = PSStaticTextCell;
+			cellClass = CPColorPickerTableCell;
+			label = "no alpha, no default";
+			key = noAlphaNoDefaultStatic;
+			allowMultilineTitleKey = 1;
+			defaults = com.tomaszpoliszuk.colorpickertablecellexample;
+			PostNotification = com.tomaszpoliszuk.colorpickertablecellexample.settingschanged;
+		},
+		{
+			cell = PSStaticTextCell;
+			cellClass = CPColorPickerTableCell;
+			label = "alpha, default";
+			key = alphaDefaultStatic;
+			supportsAlpha = 1;
+			default = "#66339966";
+			allowMultilineTitleKey = 1;
+			defaults = com.tomaszpoliszuk.colorpickertablecellexample;
+			PostNotification = com.tomaszpoliszuk.colorpickertablecellexample.settingschanged;
+		},
+		{
+			cell = PSStaticTextCell;
+			cellClass = CPColorPickerTableCell;
+			label = "alpha, no default, custom picker title";
+			pickerTitle = "Picker Title";
+			key = alphaNoDefaultStatic;
+			supportsAlpha = 1;
+			allowMultilineTitleKey = 1;
+			defaults = com.tomaszpoliszuk.colorpickertablecellexample;
+			PostNotification = com.tomaszpoliszuk.colorpickertablecellexample.settingschanged;
+		},
+	);
+}

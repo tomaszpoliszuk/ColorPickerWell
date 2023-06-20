@@ -1,0 +1,10 @@
+{
+	entry = {
+		cell = PSLinkCell;
+		isController = 1;
+		label = "ColorPickerTableCell Example";
+		bundle = CPColorPickerTableCellExample;
+		detail = CPColorPickerTableCellExample;
+		id = CPColorPickerTableCellExample;
+	};
+}

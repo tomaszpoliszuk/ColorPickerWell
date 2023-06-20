@@ -1,0 +1,28 @@
+<div>
+<strong>Color Picker Well</strong><br>
+<br>
+<strong>Compatibility:</strong><br>
+ - iOS 9 and above<br>
+<br>
+<strong>This dependency provides:</strong><br>
+- CPColorWell (recreation of UIColorWell that uses libcolorpicker or it's replacements for color picker part) compatible with iOS 7 - 13<br>
+- CPColorPickerTableCell to set color from preferences - uses UIColorWell on iOS 14+ and CPColorWell for lower versions, compatible with iOS 9+<br>
+- UIColor extensions<br>
+<br>
+<strong>Installation</strong><br>
+- Run [build_for_theos.sh](build_for_theos.sh) (change <code>DEVELOPER_DIR</code> path to your instance of Xcode 11.7)<br>
+- Add <code>$(TWEAK_NAME)_EXTRA_FRAMEWORKS = ColorPickerTableCell</code> to makefile of your project<br>
+- Add <code>#import <ColorPickerTableCell/CPColorPickerTableCell.h></code> to your headers<br>
+<br>
+<strong>Examples</strong><br>
+- in subproject <code>CPColorPickerTableCellExample</code> check:<br>
+- - <code>CPColorPickerTableCellStatic</code> & <code>CPColorPickerTableCellStaticXml</code> for simple plist-based implementation examples<br>
+- - <code>CPColorPickerTableCellDynamic</code> for dynamic implementation examples<br>
+- To get color from saved settings string use <code>[UIColor _CPW_colorFromString:COLOR_STRING_FROM_SETTINGS_HERE]</code><br>
+<br>
+<strong>Live Examples</strong><br>
+heck out this projects to see actual implementations of Color Picker Table Cell:<br>
+- <a href="https://github.com/tomaszpoliszuk/DockController/commit/ebf23361b8686d3578af8c0a963705352e60c70f" target="_new">DockController</a><br>
+<br>
+This dependency is open sourced <a href="https://github.com/tomaszpoliszuk/ColorPickerWell" target="_new">on Github</a><br>
+<br>

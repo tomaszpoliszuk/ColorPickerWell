@@ -1,0 +1,10 @@
+Package: com.tomaszpoliszuk.colorpickerwell
+Name: Color Picker Well
+Depends: firmware (>= 9.0), org.thebigboss.libcolorpicker | firmware (>= 14.0)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Color picker framework for developers
+Maintainer: Tomasz Poliszuk
+Author: Tomasz Poliszuk
+Section: Development
+Tag: role::developer

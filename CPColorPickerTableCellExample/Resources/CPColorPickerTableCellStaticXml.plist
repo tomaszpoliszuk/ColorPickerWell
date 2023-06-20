@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>CPColorPickerTableCell Static xml</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CPColorPickerTableCell</string>
+			<key>label</key>
+			<string>no alpha, default</string>
+			<key>key</key>
+			<string>noAlphaDefaultStaticXML</string>
+			<key>default</key>
+			<string>#339966</string>
+			<key>allowMultilineTitleKey</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample</string>
+			<key>PostNotification</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CPColorPickerTableCell</string>
+			<key>label</key>
+			<string>no alpha, no default</string>
+			<key>key</key>
+			<string>noAlphaNoDefaultStaticXML</string>
+			<key>allowMultilineTitleKey</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample</string>
+			<key>PostNotification</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CPColorPickerTableCell</string>
+			<key>label</key>
+			<string>alpha, default</string>
+			<key>key</key>
+			<string>alphaDefaultStaticXML</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>default</key>
+			<string>#66339966</string>
+			<key>allowMultilineTitleKey</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample</string>
+			<key>PostNotification</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CPColorPickerTableCell</string>
+			<key>label</key>
+			<string>alpha, no default, custom picker title</string>
+			<key>pickerTitle</key>
+			<string>Picker Title</string>
+			<key>key</key>
+			<string>alphaNoDefaultStaticXML</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>allowMultilineTitleKey</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample</string>
+			<key>PostNotification</key>
+			<string>com.tomaszpoliszuk.colorpickertablecellexample.settingschanged</string>
+		</dict>
+	</array>
+</dict>
+</plist>
